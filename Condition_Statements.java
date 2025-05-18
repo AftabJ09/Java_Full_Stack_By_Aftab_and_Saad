@@ -10,6 +10,7 @@ public class Condition_Statements {
     System.out.println("Enter third number: ");
     int number3 = input.nextInt();
     if(number1 > number2){
+
         if(number1 > number3){
             System.out.println(number1+ " is greater");
         }else{
