@@ -1,4 +1,5 @@
 import java.util.Scanner;
+/* Following code is to understand the concept of nested if decision-making loop*/
 public class Condition_Statements {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
@@ -8,7 +9,6 @@ public class Condition_Statements {
     int number2 = input.nextInt();
     System.out.println("Enter third number: ");
     int number3 = input.nextInt();
-    int greater = 0;
     if(number1 > number2){
         if(number1 > number3){
             System.out.println(number1+ " is greater");
