@@ -6,7 +6,6 @@ public class Operators {
             int a = sc.nextInt();
             System.out.println("Enter B value: ");
             int b = sc.nextInt();
-
             /* Relational operators */
             System.out.println("The answer is: "+(a>b));
             System.out.println("The answer is: "+(a<b));
