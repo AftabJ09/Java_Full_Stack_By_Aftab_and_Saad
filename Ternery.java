@@ -4,6 +4,5 @@ public class Ternery {
         int b = 20;
         int x = (a>b) ? a:b;
         System.out.println(x);
-
     }
 }
