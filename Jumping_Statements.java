@@ -14,7 +14,6 @@ public class Jumping_Statements
             if(x == 15){
                 break;
             }
-
         }
     }
 }
