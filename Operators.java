@@ -31,6 +31,7 @@ public class Operators {
             System.out.println("The Add and assignment: "+(a += 1));
             System.out.println("The Minus and assignment: "+(a -= 1));
             System.out.println("The Multiply and assignment: "+( a *= 2));
+
         }
 }
 
