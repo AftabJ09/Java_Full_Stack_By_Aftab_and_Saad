@@ -29,9 +29,5 @@ public class MethodExample {
         obj.get_data(dog_name,dog_breed,dog_age);
         obj.print_data();
 
-
-
-
-
     }
 }
