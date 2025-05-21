@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class calci{
     public int add(int a,int b){
         return a+b;
@@ -17,8 +18,11 @@ class calci{
 }
 public class calcmethod {
     public static void main(String[] args) {
-        int a=5;
-        int b=10;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a value");
+        int a=sc.nextInt();
+        System.out.println("enter b value");
+        int b=sc.nextInt();
         calci calculator=new calci();
         System.out.println("Adddition :"+calculator.add(a, b));
         calculator.sub(a, b);
