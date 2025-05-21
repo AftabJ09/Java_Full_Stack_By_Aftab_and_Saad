@@ -7,6 +7,7 @@ class functions{
     public void subtract(int a,int b){
         System.out.println("The subtraction of :"+a+" "+b+" "+": "+(a-b));
 
+
     }
     public void division(int a,int b){
             if (b != 0){
