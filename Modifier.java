@@ -1,5 +1,11 @@
+class Public{
+    public void Display(){
+        System.out.println("This is a public class");
+    }
+
+}
 class PrivateModifier{
-    private int num;
+    public int num;
     public PrivateModifier(int num1){
         num = num1;
         print();
@@ -10,9 +16,20 @@ class PrivateModifier{
     }
 }
 
+class Protected{
+    protected int details(){
+        int a = 10;
+        int b = 20;
+        return a+b;
+    }
+
+}
 public class Modifier {
     public static void main(String[] args) {
-        PrivateModifier obj = new PrivateModifier(50);
-
+        Public obj1 = new Public();
+        obj1.Display();
+        PrivateModifier obj2 = new PrivateModifier(50);
+        Protected obj3 =  new Protected();
+        System.out.println(obj3.details());
     }
 }
