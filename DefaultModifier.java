@@ -1,6 +1,6 @@
 class Print{
     void demo(){
-        System.out.println("This is Default aceess modifier");
+        System.out.println("This is Default acess modifier");
     }
 }
 public class DefaultModifier {
