@@ -51,5 +51,6 @@ public class HierarchicalInheritance {
         king.King_data();
         prince1.prince_1_detail();
         prince2.prince_2_detail();
+        king.King_data();
     }
 }
