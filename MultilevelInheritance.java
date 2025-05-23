@@ -23,6 +23,7 @@ class Son extends Father{
         System.out.println("My weight is "+ weight);
     }
 }
+
 public class MultilevelInheritance {
     public static void main(String[] args) {
         GrandFather grandfather = new GrandFather();
