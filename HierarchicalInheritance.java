@@ -1,5 +1,4 @@
 import java.lang.classfile.Superclass;
-
 class King{
     String firstname;
     String surname;
