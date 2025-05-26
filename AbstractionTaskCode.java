@@ -11,8 +11,8 @@ class Record extends Organization{
         System.out.println("--- Employee record ---  ");
         System.out.println("Name: "+name);
         System.out.println("Dep_Id: "+Dep_Id);
-
     }
+
     void Department(String Dep_Id,String Role,String Team_Size){
         System.out.println("\n--- Department record ---  ");
         System.out.println("Dep_Id: "+Dep_Id);
