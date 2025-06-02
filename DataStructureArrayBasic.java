@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class DataStructureArrayBasic {
     public static void main(String[] args) {
        int Numbers[] = new int[5];
@@ -10,5 +11,18 @@ public class DataStructureArrayBasic {
            System.out.println(Numbers[i]);
        }
 
+        //with user input
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter the elements");
+        for(int i =0;i<Numbers.length;i++){
+            Numbers[i] = sc.nextInt();
+        }
+        for(int i =0;i<Numbers.length;i++){
+            System.out.println(Numbers[i]);
+        }
+        System.out.println(Numbers);
+
+
     }
 }
+
