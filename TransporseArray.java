@@ -26,8 +26,5 @@ public class TransporseArray {
             }
             System.out.println();
         }
-
-
-
     }
 }
