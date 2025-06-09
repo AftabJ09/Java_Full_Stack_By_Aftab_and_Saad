@@ -1,8 +1,6 @@
 import java.util.Scanner;
 public class ArrayWithInput {
     public static void main(String[] args) {
-
-
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the row size: ");
        int row = input.nextInt();
