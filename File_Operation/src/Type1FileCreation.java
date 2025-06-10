@@ -7,7 +7,6 @@ public class Type1FileCreation {
         FileWriter writer = new FileWriter(file);
         writer.write("We have break at 11:30 Am");
         writer.write("We will update you with the next");
-
         System.out.println("Data insterted sucessfully");
         writer.close();
     }
