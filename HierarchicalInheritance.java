@@ -31,6 +31,7 @@ class Prince1 extends King{
 class Prince2 extends  King{
     int wars;
     Prince2(String name,String surname,int wars){
+
         this.wars = wars;
         super(name,surname);
 
