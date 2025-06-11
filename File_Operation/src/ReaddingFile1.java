@@ -10,5 +10,6 @@ public class ReaddingFile1 {
         }catch (Exception e){
             System.out.println(e);
         }
+
     }
 }
