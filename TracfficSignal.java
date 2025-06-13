@@ -16,6 +16,7 @@ class Yellow extends Thread{
         for(int i=0;i<10;i++){
             try{
                 Thread.sleep(3000);
+
                 System.out.print("\nYELLOW");
 
             }catch(Exception e){
