@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
-
 public class ArrayListConcept {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
