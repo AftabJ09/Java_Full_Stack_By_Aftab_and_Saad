@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
-public class ArrayListFruit {
+public class ArrayListFruit{
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("WaterMelon");
@@ -11,8 +11,14 @@ public class ArrayListFruit {
         System.out.println(list);
         list.add(2,"Apple");
         System.out.println((list));
+        list.addFirst("StrawBerry");
+        list.addLast("Papaya");
+        System.out.println(list);
+        list.removeLast();
+        list.removeFirst();
+        System.out.println(list);
+        System.out.println(list.get(2));
+        System.out.println(list.contains("Apple"));
+
     }
-
-
-
 }
