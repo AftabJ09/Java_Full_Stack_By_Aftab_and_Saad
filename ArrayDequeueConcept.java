@@ -24,5 +24,9 @@ public class ArrayDequeueConcept {
         System.out.println(numbers);
         numbers.removeLast();
         System.out.println(numbers);
+        System.out.println(numbers.getFirst());
+        System.out.println(numbers.getLast());
+        numbers.removeAll(numbers);
+        System.out.println(numbers);
     }
 }
