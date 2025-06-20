@@ -5,11 +5,13 @@ interface  GEM{
 
 }
 
-class Gem implements GEM{
+class Testing implements GEM{
 
 }
 public class Feature1 {
     public static void main(String[] args) {
-        Gem gem = new Gem();
+        Testing gem = new Testing();
+        gem.demo();
+
     }
 }
