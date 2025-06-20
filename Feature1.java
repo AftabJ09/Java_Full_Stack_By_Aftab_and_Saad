@@ -11,6 +11,5 @@ class Gem implements GEM{
 public class Feature1 {
     public static void main(String[] args) {
         Gem gem = new Gem();
-        gem.demo();
     }
 }
