@@ -6,6 +6,7 @@ class DoesOperation implements Operation{
         return a+b;
     }
 
+
 }
 
 public class Feature6 {
