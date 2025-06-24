@@ -13,6 +13,7 @@ public class Feature8 {
                 return i%2 == 0;
             }
         };
+
         list.stream().filter(pred).forEach(System.out::println);
 
     }
